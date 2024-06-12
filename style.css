@@ -1,0 +1,46 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "work sans", sans-serif;
+    background-color: red;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+/* small screens */
+@media (min-width:768px){   
+    .container{
+        width: 750px;
+    }
+}
+/* medium screens */
+@media (min-width:992px){   
+    .container{
+        width: 970px;
+    }
+}
+/* larg screens */
+@media (min-width:1200px){  
+    .container{
+        width: 1170px;
+    }
+}
+
+/* start header */
+.header{
+    padding: 20px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+/* end header */
